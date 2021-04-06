@@ -1,0 +1,28 @@
+@media (max-width: 700px) {
+  .logo {
+    margin-left: 2vw;
+  }
+
+  .fa-bars {
+    display: block;
+    margin-right: 5vw;
+  }
+
+  .ham-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(0);
+    height: 100vh;
+    background-color: red;
+    z-index: 1000;
+  }
+
+  .ham-menu.active {
+    transform: translateX(0);
+  }
+
+  .nav-items {
+    display: none;
+  }
+}
